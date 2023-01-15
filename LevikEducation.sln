@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstStepsCSharp", "FirstStepsCSharp\FirstStepsCSharp.csproj", "{1A475A2E-FBCB-40A1-A0B5-0D5E93DC0A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{4C15F313-F2DC-42D4-9F8E-605ADB718AC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1A475A2E-FBCB-40A1-A0B5-0D5E93DC0A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A475A2E-FBCB-40A1-A0B5-0D5E93DC0A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A475A2E-FBCB-40A1-A0B5-0D5E93DC0A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C15F313-F2DC-42D4-9F8E-605ADB718AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C15F313-F2DC-42D4-9F8E-605ADB718AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C15F313-F2DC-42D4-9F8E-605ADB718AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C15F313-F2DC-42D4-9F8E-605ADB718AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
