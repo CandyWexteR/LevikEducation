@@ -43,6 +43,34 @@ internal static class Program
     }
 }
 
+class Human
+{
+    public Human()
+    {
+        
+    }
+    
+    public Human(string name, string surname, string? middleName)
+    {
+        Name = name;
+        Surname = surname;
+        MiddleName = middleName;
+    }
+
+    public static Human Create()
+    {
+        return new Human();
+    }
+
+    public string Name { get; set; }
+    public string Surname { get; set; }
+    public string? MiddleName { get; set; }
+
+    public string GetFullName()
+    {
+        return $"{Surname} {Name} {MiddleName}";
+    }
+}
 class ExampleClass
 {
     private string _ПриватноеПоле;
@@ -64,15 +92,4 @@ class ExampleClass
     }
 }
 
-class Human
-{
-    public string Name { get; set; }
-    public string Surname { get; set; }
-    public string? MiddleName { get; set; }
-
-    public string GetFullName()
-    {
-        return $"{Surname} {Name} {MiddleName}";
-    }
-}
 
