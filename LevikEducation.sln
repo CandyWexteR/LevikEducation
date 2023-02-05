@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{E1A023A2-8BA1-4787-B972-C9B38705B7F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates", "Templates\Templates.csproj", "{3A29793C-9339-4299-A35E-01177A0C9812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A29793C-9339-4299-A35E-01177A0C9812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A29793C-9339-4299-A35E-01177A0C9812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A29793C-9339-4299-A35E-01177A0C9812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A29793C-9339-4299-A35E-01177A0C9812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
