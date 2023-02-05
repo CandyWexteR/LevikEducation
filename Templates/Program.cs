@@ -20,6 +20,27 @@ internal static class Program
         Console.WriteLine(item2.T1Value);
         Console.WriteLine(item2.T2Value);
         Console.WriteLine(item2.T3Value);
+
+        var listItem1 = new ListItem<int>()
+        {
+            Value = 3,
+            NextValue = null,
+            PrevValue = null
+        };
+        
+        var listItem2 = new ListItem<int>()
+        {
+            Value = 7,
+            NextValue = null,
+            PrevValue = null
+        };
+
+        listItem1.NextValue = listItem2;
+        
+        listItem2.PrevValue = listItem1;
+        
+        
+        
         Console.ReadKey();
     }
     
