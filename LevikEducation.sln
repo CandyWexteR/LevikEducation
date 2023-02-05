@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples_28_01_2023", "Sampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{DE0069A4-D9A8-47F2-B4A9-DB4620856382}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{E1A023A2-8BA1-4787-B972-C9B38705B7F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{DE0069A4-D9A8-47F2-B4A9-DB4620856382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE0069A4-D9A8-47F2-B4A9-DB4620856382}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE0069A4-D9A8-47F2-B4A9-DB4620856382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A023A2-8BA1-4787-B972-C9B38705B7F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
