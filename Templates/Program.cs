@@ -38,10 +38,25 @@ internal static class Program
         listItem1.NextValue = listItem2;
         
         listItem2.PrevValue = listItem1;
-        
-        
-        
+
+
+        Action? actNulled = null;
+        Action? actNull = null;
+        Action actNonNull = new Action();
+        actNulled?.Invoke();
+        actNull?.Invoke();
+        actNonNull.Invoke();
+
+
+
         Console.ReadKey();
     }
-    
+}
+
+class Action
+{
+    public void Invoke()
+    {
+        
+    }
 }
