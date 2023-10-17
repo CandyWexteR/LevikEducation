@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitySamples", "EntitySamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleLinkedList", "SingleLinkedList\SingleLinkedList.csproj", "{A85F0B80-EB3B-4558-B3B8-CB6C14795FC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAndRealisation", "InterfaceAndRealisation\InterfaceAndRealisation.csproj", "{C67A7303-B2B5-4EC2-9645-802D00E82CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{A85F0B80-EB3B-4558-B3B8-CB6C14795FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85F0B80-EB3B-4558-B3B8-CB6C14795FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85F0B80-EB3B-4558-B3B8-CB6C14795FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67A7303-B2B5-4EC2-9645-802D00E82CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67A7303-B2B5-4EC2-9645-802D00E82CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67A7303-B2B5-4EC2-9645-802D00E82CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67A7303-B2B5-4EC2-9645-802D00E82CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
