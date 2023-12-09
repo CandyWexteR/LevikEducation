@@ -13,12 +13,31 @@ internal static class Program
             Console.WriteLine(); - вывод с переходом на следующую строку
             Console.Write(); - вывод без перехода на следующую строку
             
+            Console.Write("152");
+            Console.Write("924");
+            Итог: 
+            152924
+            
+            Console.WriteLine("152");
+            Console.WriteLine("924");
+            Итог:
+            152
+            924
+            
             Console.ReadLine(); - ввод с переходом на следующую строку - считывает строку
             Console.Read(); - ввод без перехода на следующую строку - считывает символ в формате ASCII
+            
+            
+            После Console.ReadLine();
+            ввел в консоль 123456 и нажал ENTER
+            В строке будет следующее: string s = "123456";
          */
         
+        System.Console.WriteLine("Сейчас выведу тестовую строку 123123 СЛИТНО");
         System.Console.WriteLine("123123");
         System.Console.WriteLine(123123);
+        int bb = 123123;
+        System.Console.WriteLine(bb);
 
         string consoleValue = System.Console.ReadLine();
         int consoleValue2 = System.Console.Read();
